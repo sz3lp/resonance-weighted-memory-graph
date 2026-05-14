@@ -6,9 +6,6 @@ This repository is intended as a **portfolio-quality systems sample** for roles 
 
 ---
 
-## Why this repo maps to $130k+ IC roles (mid-tier AI companies)
-
-Recruiters and hiring managers usually scan for *breadth + rigor*. This codebase demonstrates:
 
 | Area | What is implemented here |
 |------|---------------------------|
