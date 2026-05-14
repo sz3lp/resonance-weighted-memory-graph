@@ -1,14 +1,14 @@
-RWMG (Resonance-Weighted Memory Graph)
+# RWMG (Resonance-Weighted Memory Graph)
 A multi-module agent simulation and orchestration framework built to solve state degradation, context collapse, and API brittleness in long-running LLM systems.
 
 Built in Python. ~8,800 LOC across 60+ modules. Fully test-backed.
 
-⚡ The Problem It Solves
+# The Problem It Solves
 Most LLM agent architectures fall apart over long horizons: they echo their own outputs, lose context, fail ungracefully during API timeouts, and are fundamentally non-deterministic, making debugging a nightmare.
 
 RWMG is an execution-layer framework designed from first principles to fix this. It provides deterministic memory ranking, pluggable distributed storage, and aggressive circuit-breaker fault tolerance, allowing fleets of agents to maintain coherent, evolving state over multiple epochs without breaking.
 
-🏗️ Core Architecture & Subsystems
+# Core Architecture & Subsystems
 The system is decoupled into isolated modules, ensuring that storage, memory logic, orchestration, and LLM integrations can be modified or swapped independently.
 
 1. Storage Abstraction (rwmg/storage/)
@@ -41,7 +41,7 @@ Implements aggressive circuit breaker patterns to gracefully degrade agent behav
 
 Built-in fallback heuristics and prompt-tuning pipelines (prompt_tuner.py) that adapt dynamically if the primary model provider times out or returns malformed schema.
 
-🧪 Testing & Validation
+Testing & Validation
 Building LLM wrappers is easy; making them testable is hard. RWMG was built with a rigorous, deterministic testing philosophy to catch architectural regressions.
 
 The test suite (/tests) isolates behavior across multiple phases:
@@ -56,7 +56,7 @@ Invariant Validation: (test_phase11_invariants.py) Ensures that the core rules o
 
 Trace Replay: (scripts/replay_trace.py) Allows for exact replay of API calls and memory ranking decisions to reliably debug divergence.
 
-💻 Tech Stack
+Tech Stack
 Language: Python 3.x
 
 Storage: Redis, MsgPack, JSON
@@ -65,7 +65,7 @@ Testing: Pytest (deterministic harnesses)
 
 Integration: Gemini API (Extensible via model_provider.py)
 
-🚀 Usage
+# Usage
 (Provide a brief, 3-4 line block of code here showing how easy it is to initialize the engine, set the storage backend, and run an epoch. Keep it highly abstracted.)
 
 Python
