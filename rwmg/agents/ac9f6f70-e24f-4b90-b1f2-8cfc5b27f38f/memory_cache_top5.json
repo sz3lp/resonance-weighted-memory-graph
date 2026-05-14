@@ -1,0 +1,7 @@
+[
+  {
+    "event_id": "string",
+    "content": "string",
+    "weight": "float"
+  }
+]

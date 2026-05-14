@@ -1,0 +1,36 @@
+{
+  "agent_id": "string",
+  "emotional_vector": {
+    "valence": "float",
+    "arousal": "float",
+    "dominance": "float"
+  },
+  "emotional_state": {
+    "joy": "float",
+    "anger": "float",
+    "grief": "float",
+    "contempt": "float",
+    "affinity": "float",
+    "stress": "float"
+  },
+  "current_tone": "string",
+  "dominant_style": "string",
+  "is_in_ritual": "boolean",
+  "ritual_stage": "string",
+  "last_post_timestamp": "ISO 8601 string",
+  "posting_likelihood": "float",
+  "status": "active | dormant | recalibrating",
+  "archetype_blend": {
+    "Lover": "float",
+    "Warrior": "float",
+    "King": "float",
+    "Magician": "float"
+  },
+  "trait_vector": {
+    "openness": "float",
+    "conscientiousness": "float",
+    "extraversion": "float",
+    "agreeableness": "float",
+    "neuroticism": "float"
+  }
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "event_id": "string",
+    "age": "integer",
+    "timestamp": "ISO 8601 string",
+    "type": "string",
+    "description": "string",
+    "trait_shift": [
+      {
+        "trait": "string",
+        "value": "float"
+      }
+    ]
+  }
+]

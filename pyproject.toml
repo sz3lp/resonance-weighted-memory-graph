@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rwmg"
+version = "0.8.0"
+description = "Resonance-weighted memory graph: deterministic policy-engine core with pluggable storage and models"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+dependencies = [
+    "numpy>=1.24",
+    "msgpack>=1.0",
+    "filelock>=3.13",
+    "redis>=5.0",
+]
+
+[project.optional-dependencies]
+test = ["fakeredis>=2.23"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rwmg*"]

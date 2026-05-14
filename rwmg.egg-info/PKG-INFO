@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: rwmg
+Version: 0.8.0
+Summary: Resonance-weighted memory graph: deterministic policy-engine core with pluggable storage and models
+License: Proprietary
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24
+Requires-Dist: msgpack>=1.0
+Requires-Dist: filelock>=3.13
+Requires-Dist: redis>=5.0
+Provides-Extra: test
+Requires-Dist: fakeredis>=2.23; extra == "test"

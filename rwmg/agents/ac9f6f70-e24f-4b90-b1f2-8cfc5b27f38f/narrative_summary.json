@@ -1,0 +1,12 @@
+{
+  "last_updated": "ISO 8601 string",
+  "dominant_theme": "string",
+  "current_arc": "Collapse Loop | Breakthrough | Plateau",
+  "major_breakpoints": [
+    {
+      "event_id": "string",
+      "event_type": "string",
+      "description": "string"
+    }
+  ]
+}

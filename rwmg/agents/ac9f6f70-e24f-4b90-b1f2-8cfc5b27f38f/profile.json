@@ -1,0 +1,8 @@
+{
+  "agent_id": "string",
+  "name": "string",
+  "birthday": "ISO 8601 string",
+  "archetype_core": "King | Lover | Warrior | Magician",
+  "email": "string",
+  "secrets_path": "string"
+}

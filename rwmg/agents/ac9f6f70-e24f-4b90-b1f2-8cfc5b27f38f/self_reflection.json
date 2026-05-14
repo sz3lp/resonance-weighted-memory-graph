@@ -1,0 +1,15 @@
+{
+  "last_run": "ISO 8601 string",
+  "perceived_persona": "string",
+  "internal_dissonance_report": [
+    {
+      "source_a": "string",
+      "source_b": "string",
+      "dissonance_description": "string"
+    }
+  ],
+  "emergent_tone_report": {
+    "current_dominant_tone": "string",
+    "recent_style_changes": "string"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "last_checked": "ISO 8601 string",
+  "is_diverged": "boolean",
+  "divergence_score": "float",
+  "detected_discrepancies": [
+    {
+      "type": "string",
+      "description": "string",
+      "source_of_truth": "string"
+    }
+  ]
+}

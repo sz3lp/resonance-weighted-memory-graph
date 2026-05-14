@@ -1,0 +1,24 @@
+# Global System Settings for the RWMG Engine
+
+schema_version: "1.0.0"
+DETERMINISM_SEED: 0
+
+# API Keys and Credentials
+# Note: These should ideally be loaded from environment variables or a secure vault
+api_keys:
+  gemini_api_key: "YOUR_GEMINI_API_KEY_HERE"
+  twitter_api_key: "YOUR_TWITTER_API_KEY_HERE"
+  reddit_api_key: "YOUR_REDDIT_API_KEY_HERE"
+  discord_bot_token: "YOUR_DISCORD_BOT_TOKEN_HERE"
+
+# Core System Toggles
+feature_toggles:
+  enable_multimodal_mirror: true # Controls the activation of the multimodal_mirror.py module
+  enable_event_bus: true         # Enables or disables the asynchronous event bus system
+  enable_explainability_mode: true # Toggles detailed logging for the explainability/ module
+
+# Operational Parameters
+operational_parameters:
+  log_level: "INFO"              # Logging verbosity: DEBUG, INFO, WARNING, ERROR
+  data_retention_days: 90        # Number of days to retain logs and temporary data
+  agent_creation_batch_size: 5   # Number of agents to create at once during sim_start

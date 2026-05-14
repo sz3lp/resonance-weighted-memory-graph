@@ -1,0 +1,15 @@
+{
+  "friends": [
+    {
+      "agent_id": "string",
+      "relationship_type": "string",
+      "affinity_score": "float"
+    }
+  ],
+  "mentors": [
+    {
+      "agent_id": "string",
+      "affinity_score": "float"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+twitter:
+  max_tokens: 280
+  style: "witty, brief, direct"
+  decay_multiplier: 1.1 # Faster decay on ephemeral platforms
+  like_weight: 0.1
+  share_weight: 0.8 # Shares are highly valued as they signal belief and momentum
+  comment_weight: 0.5
+reddit:
+  max_tokens: 3000
+  style: "explanatory, argumentative, in-depth"
+  decay_multiplier: 0.9 # Slower decay on long-form platforms
+  like_weight: 0.3 # Upvotes are a baseline signal
+  share_weight: 0.4
+  comment_weight: 0.9 # Comments signal deep engagement and validation

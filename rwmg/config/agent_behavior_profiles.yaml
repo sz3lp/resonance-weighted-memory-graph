@@ -1,0 +1,50 @@
+sporadic:
+  post_frequency: "random"
+  cooldown_period_hours: [1, 24]
+  activity_windows: "random"
+
+ritualistic:
+  post_frequency: "daily"
+  cooldown_period_hours: [23, 25]
+  activity_windows: "fixed_morning"
+
+hyperactive:
+  post_frequency: "3x/day"
+  cooldown_period_hours: [1, 5]
+  activity_windows: "all_day"
+
+quiet_observer:
+  post_frequency: "1x/week"
+  cooldown_period_hours: [168, 172]
+  activity_windows: "sporadic"
+
+night_owl:
+  post_frequency: "daily"
+  cooldown_period_hours: [20, 28]
+  activity_windows: "night"
+
+morning_person:
+  post_frequency: "daily"
+  cooldown_period_hours: [22, 26]
+  activity_windows: "morning"
+
+afternoon_poster:
+  post_frequency: "daily"
+  cooldown_period_hours: [22, 26]
+  activity_windows: "afternoon"
+
+weekend_warrior:
+  post_frequency: "1x/week"
+  cooldown_period_hours: [144, 192]
+  activity_windows: "all_day"
+
+lunch_breaker:
+  post_frequency: "daily"
+  cooldown_period_hours: [20, 28]
+  activity_windows: "midday"
+
+chaotic:
+  post_frequency: "random"
+  cooldown_period_hours: [2, 12]
+  activity_windows: "random"
+

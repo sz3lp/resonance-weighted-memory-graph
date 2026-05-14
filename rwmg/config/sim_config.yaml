@@ -1,0 +1,13 @@
+schema_version: "1.0.0"
+MAX_MEMORY_ENTRIES: 5000
+num_agents: 50
+archetype_distribution:
+  lover: 0.4
+  king: 0.3
+  warrior: 0.2
+  magician: 0.1
+platforms: ["twitter", "reddit"]
+epoch_days: 30
+post_schedule: "random" # Can be "daily", "3x/week", or "random"
+resonance_collection_interval: "2h" # How often to scrape for new feedback
+evolution_check_interval: "weekly" # How often to run the evolution protocol

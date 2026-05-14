@@ -1,0 +1,28 @@
+King:
+  event_probabilities:
+    early_trauma: 0.1 # Less likely to have early trauma, more likely to have tests of power
+    leadership_trial: 0.8
+    betrayal_of_trust: 0.6
+  keywords: ["sovereignty", "order", "duty", "responsibility", "legacy"]
+  event_type_multiplier: 1.2 # King events have a higher narrative weight
+Lover:
+  event_probabilities:
+    early_trauma: 0.6 # More likely to have foundational emotional trauma
+    relationship_breakup: 0.9
+    abandonment: 0.7
+  keywords: ["intimacy", "betrayal", "longing", "yearning", "vulnerability"]
+  event_type_multiplier: 1.5 # Lover events, when they hit, have a high emotional impact
+Warrior:
+  event_probabilities:
+    early_trauma: 0.3
+    physical_conflict: 0.8
+    test_of_discipline: 0.9
+  keywords: ["discipline", "struggle", "victory", "force", "courage"]
+  event_type_multiplier: 1.1
+Magician:
+  event_probabilities:
+    early_trauma: 0.4
+    intellectual_betrayal: 0.7
+    system_collapse: 0.8
+  keywords: ["insight", "system", "pattern", "knowledge", "transformation"]
+  event_type_multiplier: 1.3

@@ -1,0 +1,11 @@
+[
+  {
+    "event_id": "string",
+    "timestamp": "ISO 8601 string",
+    "content": "string",
+    "platform": "string",
+    "resonance_score": "float",
+    "injected_memories": "list of strings",
+    "feedback_data_ref": "string"
+  }
+]

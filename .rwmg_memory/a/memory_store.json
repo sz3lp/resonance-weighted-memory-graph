@@ -1,0 +1,37 @@
+{
+  "agent_id": "a",
+  "clusters": {},
+  "event_log": [],
+  "events": {},
+  "feedback_log": [],
+  "policy_state": {
+    "cluster_performance": {},
+    "evaluation_trend": [],
+    "exploration_rate": 0.2,
+    "preferred_patterns": {},
+    "suppressed_patterns": {}
+  },
+  "process_traces": [],
+  "schema_version": "1.0.0",
+  "self_model": {
+    "attribution_error_history": [],
+    "calibration_error": 0.0,
+    "causal_attribution_bias": 0.0,
+    "confidence_drift": 0.0,
+    "confidence_drift_history": [],
+    "drift_trend": 0.0,
+    "global_calibration_error": 0.0,
+    "meta_score_history": [],
+    "model_rankings": {
+      "baseline": 0.5,
+      "high_regret_weight": 0.5,
+      "high_sensitivity": 0.5,
+      "low_bias": 0.5,
+      "low_regret_weight": 0.5
+    },
+    "prediction_bias": 0.0,
+    "prediction_error_history": [],
+    "regret_bias": 0.0,
+    "regret_error_history": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "UUIDv4": {
+    "name": "string",
+    "archetype_core": "string",
+    "email": "string",
+    "status": "active | dormant | retired",
+    "created_at": "ISO 8601 string"
+  }
+}
